@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GIFTI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:noNamespaceSchemaLocation="http://brainvis.wustl.edu/caret6/xml_schemas/GIFTI_Caret.xsd"
+       Version="1"
+       NumberOfDataArrays="1">
+   <MetaData>
+      <MD>
+         <Name><![CDATA[AnatomicalStructurePrimary]]></Name>
+         <Value><![CDATA[CortexRight]]></Value>
+      </MD>
+      <MD>
+         <Name><![CDATA[ParentProvenance]]></Name>
+         <Value><![CDATA[/local_raid/seokjun/01_project/08_Autism_abide/01_analysis/functional_gradient_project/Pipelines-3.21.0//global/templates/standard_mesh_atlases/R.sphere.10k_fs_LR.surf.gii:
+/local_raid/seokjun/01_project/08_Autism_abide/01_analysis/functional_gradient_project/workbench/bin_linux64/../exe_linux64/wb_command -surface-create-sphere 10000 /local_raid/seokjun/01_project/08_Autism_abide/01_analysis/functional_gradient_project/Pipelines-3.21.0//global/templates/standard_mesh_atlases/R.sphere.10k_fs_LR.surf.gii
+
+]]></Value>
+      </MD>
+      <MD>
+         <Name><![CDATA[ProgramProvenance]]></Name>
+         <Value><![CDATA[Connectome Workbench
+Type: Command Line Application
+Version: 1.2.3
+Qt Compiled Version: 4.8.5
+Qt Runtime Version: 4.8.5
+Commit: c170db0277de04cb8a5c04fdf96e45adcda47d6d
+Commit Date: 2016-08-23 19:08:10 -0500
+Compiled with OpenMP: YES
+Compiler: c++ (/usr/bin)
+Compiler Version: 
+Compiled Debug: NO
+Operating System: Linux
+]]></Value>
+      </MD>
+      <MD>
+         <Name><![CDATA[Provenance]]></Name>
+         <Value><![CDATA[/local_raid/seokjun/01_project/08_Autism_abide/01_analysis/functional_gradient_project/workbench/bin_linux64/../exe_linux64/wb_command -metric-resample /local_raid/seokjun/01_project/08_Autism_abide/01_analysis/functional_gradient_project/Pipelines-3.21.0//global/templates/standard_mesh_atlases/R.atlasroi.164k_fs_LR.shape.gii /local_raid/seokjun/01_project/08_Autism_abide/01_analysis/functional_gradient_project/Pipelines-3.21.0//global/templates/standard_mesh_atlases/fsaverage.R_LR.spherical_std.164k_fs_LR.surf.gii /local_raid/seokjun/01_project/08_Autism_abide/01_analysis/functional_gradient_project/Pipelines-3.21.0//global/templates/standard_mesh_atlases/R.sphere.10k_fs_LR.surf.gii BARYCENTRIC /local_raid/seokjun/01_project/08_Autism_abide/01_analysis/functional_gradient_project/Pipelines-3.21.0//global/templates/standard_mesh_atlases/R.atlasroi.10k_fs_LR.shape.gii -largest]]></Value>
+      </MD>
+      <MD>
+         <Name><![CDATA[WorkingDirectory]]></Name>
+         <Value><![CDATA[/local_raid/seokjun/01_project/08_Autism_abide/01_analysis/functional_gradient_project]]></Value>
+      </MD>
+   </MetaData>
+   <LabelTable>
+      <Label Key="0" Red="1" Green="1" Blue="1" Alpha="0"><![CDATA[???]]></Label>
+   </LabelTable>
+<DataArray Intent="NIFTI_INTENT_NORMAL"
+           DataType="NIFTI_TYPE_FLOAT32"
+           ArrayIndexingOrder="RowMajorOrder"
+           Dimensionality="1"
+           Dim0="10242"
+           Encoding="GZipBase64Binary"
+           Endian="LittleEndian"
+           ExternalFileName=""
+           ExternalFileOffset="0">
+   <MetaData>
+      <MD>
+         <Name><![CDATA[Name]]></Name>
+         <Value><![CDATA[Atlas_Cortex_ROI]]></Value>
+      </MD>
+      <MD>
+         <Name><![CDATA[PaletteColorMapping]]></Name>
+         <Value><![CDATA[<PaletteColorMapping Version="1">
+   <ScaleMode>MODE_AUTO_SCALE_PERCENTAGE</ScaleMode>
+   <AutoScalePercentageValues>98.000000 2.000000 2.000000 98.000000</AutoScalePercentageValues>
+   <AutoScaleAbsolutePercentageValues>2.000000 98.000000</AutoScaleAbsolutePercentageValues>
+   <UserScaleValues>-100.000000 0.000000 0.000000 100.000000</UserScaleValues>
+   <PaletteName>ROY-BIG-BL</PaletteName>
+   <InterpolatePalette>true</InterpolatePalette>
+   <DisplayPositiveData>true</DisplayPositiveData>
+   <DisplayZeroData>false</DisplayZeroData>
+   <DisplayNegativeData>true</DisplayNegativeData>
+   <ThresholdTest>THRESHOLD_TEST_SHOW_OUTSIDE</ThresholdTest>
+   <ThresholdType>THRESHOLD_TYPE_OFF</ThresholdType>
+   <ThresholdFailureInGreen>false</ThresholdFailureInGreen>
+   <ThresholdNormalValues>-1.000000 1.000000</ThresholdNormalValues>
+   <ThresholdMappedValues>-1.000000 1.000000</ThresholdMappedValues>
+   <ThresholdMappedAvgAreaValues>-1.000000 1.000000</ThresholdMappedAvgAreaValues>
+   <ThresholdDataName></ThresholdDataName>
+   <ThresholdRangeMode>PALETTE_THRESHOLD_RANGE_MODE_MAP</ThresholdRangeMode>
+   <ThresholdLowHighLinked>false</ThresholdLowHighLinked>
+   <NumericFormatMode>AUTO</NumericFormatMode>
+   <PrecisionDigits>2</PrecisionDigits>
+   <NumericSubivisions>0</NumericSubivisions>
+   <ColorBarValuesMode>DATA</ColorBarValuesMode>
+   <ShowTickMarksSelected>false</ShowTickMarksSelected>
+</PaletteColorMapping>
+]]></Value>
+      </MD>
+   </MetaData>
+   <Data>eJzt3TEOgzAMBVBu1qv16J1YkJAKsT8B3vCmJnZpY4chgmX5fpZdy3f/s+24hH++S5eZrueK3/upOZP5UrmekCNRd3f4f6trvzJeVW+qiDPaK0f67dm5Z/r80TlH9pP0nsqY0XUNW4k10702O+ugq846ari6N1TGq4pV0QO77w867k/OzOsYv86pHDebqt4BAAAAAAAAAAAAAAAAAAAAAAAAAPAmo8979CxJ1nWQyJHKc9f4XbE74lbHrIynRzEz+ykAAAAAADCL9JmA5DmE1LmHJ+ToPCfSdSal4z2qVTHhzTr2jlldcc3pnMl8qVzJPHeN/7ZaBgAAACDpBzKCAiQ=</Data>
+</DataArray>
+</GIFTI>
