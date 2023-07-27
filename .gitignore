@@ -1,4 +1,7 @@
 tmp
+tmp*
+scripts/tmp*
+scripts/vis_EN_CV.ipynb
 DONT
 submission
 figures
@@ -7,7 +10,7 @@ src
 tables.ipynb
 OLD
 vis_enrichment_old.ipynb
-vis_EN_ML.ipynb
+vis_EN_CV.ipynb
 .ipynb_checkpoints
 .owncloud*
 .sync*

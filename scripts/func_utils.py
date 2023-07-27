@@ -16,6 +16,7 @@ from scipy.interpolate import make_interp_spline
 from scipy.io import loadmat
 from matplotlib.colors import ListedColormap
 import math
+import pingouin
 lh, rh = load_conte69()
 
 def spin_spearman(x,y):
@@ -565,3 +566,11 @@ def plot_t_multi(t_g1, t_g2, t_g3, t_g123, filename):
   for spine in ax.spines.values():
       spine.set_edgecolor('None')
   plt.savefig(filename, dpi=300, transparent=True)
+
+#correct if the population S.D. is expected to be equal for the two groups.
+def cohen_d(x,y):
+    nx = len(x)
+    ny = len(y)
+    stat = pingouin.compute_effsize(x,y)
+    ci = pingouin.compute_esci(stat, nx, ny)
+    return np.array([stat, ci[0],ci[1]]).round(2)
