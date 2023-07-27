@@ -1,5 +1,7 @@
 # How to run the codes
 
+- **Bin Wan, Seok-Jun Hong, Richard AI Bethlehem, Dorothea L Floris, Boris C Bernhardt, Sofie L Valk**. Diverging asymmetry of intrinsic functional organization in autism. *preprint* 2023. https://www.biorxiv.org/content/10.1101/2023.04.05.535683v1
+
 ## Activate the enviornment  
 - `$ conda activate autism`  
 - `$ cd [working directory]/autism/`
@@ -23,7 +25,7 @@ The **output** here is: 'abide_demo_sort.csv'
 `$ python scripts/data_process_fc.py`  
 **Output**: 'results/fc/'    
 - **Gradients**  
-**Input**: 'results/fc/' 
+**Input**: 'results/fc/'  
 `$ python scripts/data_process_grad_HCP_template.py`  
 **Output**: 'results/grad/'
 
@@ -31,17 +33,31 @@ The **output** here is: 'abide_demo_sort.csv'
 `$ jupyter-lab`  
   1. Demographics  
   **click** the *'scripts/vis_basic_stas.ipython'* (Table S1)
-  2. Comparisons between ASD and controls  
-  **click** the *'scripts/vis_main.ipython'* (Figures 1, 3, 4, S1, S2, S8, S9 and Tables S2, S4, S5, S6)  
-  During this period, inter-subject correlations have done with running:  
-  `$ python scripts/spin_permutation` 
-  3. Machine learning prediction  
+  2. Comparisons between ASD and controls and age effcts
+  **click** the *'scripts/vis_main.ipython'* (Figures 1, 2, 3, 4, S1, S2, S8, S9 and Tables S2, S3, S4, S5, S6)
+  3. Enrichment analyses  
+  **click** the *'scripts/vis_enrichment.ipynb'* (Figures 3, S6, S7, S8, and Table S7)
+  4. Machine learning prediction  
   `$ python scripts/prediction.py`  
   **Output**: 'results/prediction/'  
-  then in ipython notebook, **click** the *'scripts/vis_prediction.ipynb'* (Figures 2, S3, S4, S5, S6, S7 and Table S3)
-  4. Enrichment analyses  
-  **click** the *'scripts/vis_enrichment.ipynb'* (Figures 5, S10)
+  then in ipython notebook, **click** the *'scripts/vis_EN_ML.ipynb'* (Figures 4, S9, and S10)
   5. Global signal regression  
   **Input:** '../data/data_autism/1_fc/'  
   `$ python scripts/data_process_GSR.py`  
-  **Output**: 'results/GSR/'# autism_gradient_asymm
+  **Output**: 'results/GSR/'
+  6. FIQ, head motion removal  
+  **click** the *'scripts/vis_main_fIQ_HeadMotion.ipynb'*
+
+PS: Bulit-in functions are shown in *'scripts/func_utils.py'*
+
+## Main dependencies based on Python 3.8
+- BrainSpace
+- BrainStat
+- Scikit-learn
+- SciPy
+- neuroCombat
+
+## Acknowdgements
+- Autism Brain Imaging Data Exchange
+- Human Connectome Project
+- Funding sources from **Boris C. Bernhardt** & **Sofie L. Valk**
