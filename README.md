@@ -34,7 +34,7 @@ The **output** here is: 'abide_demo_sort.csv'
   1. Demographics  
   **click** the *'scripts/vis_basic_stas.ipython'* (Table S1)
   2. Comparisons between ASD and controls and age effcts
-  **click** the *'scripts/vis_main.ipython'* (Figures 1, 2, 3, 4, S1, S2, S8, S9 and Tables S2, S3, S4, S5, S6)
+  **click** the *'scripts/vis_main.ipython'* (Figures 1, 2, S1, S2, S8, S9 and Tables S2, S3, S4, S5, S6)
   3. Enrichment analyses  
   **click** the *'scripts/vis_enrichment.ipynb'* (Figures 3, S6, S7, S8, and Table S7)
   4. Machine learning prediction  
@@ -50,7 +50,7 @@ The **output** here is: 'abide_demo_sort.csv'
 
 PS: Bulit-in functions are shown in *'scripts/func_utils.py'*
 
-## Main dependencies based on Python 3.8
+## Main dependencies based on Python 3.9
 - BrainSpace
 - BrainStat
 - Scikit-learn
