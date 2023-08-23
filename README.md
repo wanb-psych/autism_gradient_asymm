@@ -1,4 +1,5 @@
-**Bin Wan, Seok-Jun Hong, Richard AI Bethlehem, Dorothea L Floris, Boris C Bernhardt, Sofie L Valk**. *Molecular Psychiatry* (2023). 
+**Bin Wan, Seok-Jun Hong, Richard AI Bethlehem, Dorothea L Floris, Boris C Bernhardt, Sofie L Valk**.  
+*Molecular Psychiatry* (2023). 
 ![img](summary_fig.png)  
 https://www.nature.com/articles/s41380-023-02220-x  
 **Preprint version**  
