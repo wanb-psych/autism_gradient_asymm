@@ -1,7 +1,9 @@
+**Bin Wan, Seok-Jun Hong, Richard AI Bethlehem, Dorothea L Floris, Boris C Bernhardt, Sofie L Valk**. *Molecular Psychiatry* (2023). 
+![img](summary_fig.png)  
+https://www.nature.com/articles/s41380-023-02220-x  
+**Preprint version**  
+https://www.biorxiv.org/content/10.1101/2023.04.05.535683v1
 # How to run the codes
-
-- **Bin Wan, Seok-Jun Hong, Richard AI Bethlehem, Dorothea L Floris, Boris C Bernhardt, Sofie L Valk**. Diverging asymmetry of intrinsic functional organization in autism. *preprint* 2023. https://www.biorxiv.org/content/10.1101/2023.04.05.535683v1
-
 ## Activate the enviornment  
 - `$ conda activate autism`  
 - `$ cd [working directory]/autism/`
